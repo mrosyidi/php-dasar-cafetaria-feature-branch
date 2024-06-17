@@ -11,6 +11,7 @@
   require_once __DIR__ . "/View/ViewShowFood.php";
   require_once __DIR__ . "/View/ViewAddFood.php";
   require_once __DIR__ . "/View/ViewRemoveFood.php";
+  require_once __DIR__ . "/View/ViewShowDrink.php";
   require_once __DIR__ . "/View/ViewMainMenu.php";
 
   echo "Aplikasi Todolist" . PHP_EOL;
