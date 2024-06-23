@@ -2,6 +2,7 @@
 
   require_once __DIR__ . "/../View/ViewShowFood.php";
   require_once __DIR__ . "/../View/ViewShowDrink.php";
+  require_once __DIR__ . "/../View/ViewShowOrder.php";
   require_once __DIR__ . "/../Helper/Input.php";
 
   function viewMainMenu(): void
@@ -24,7 +25,7 @@
         viewShowDrink();
       }else if($pilihan == "3")
       {
-        echo "Pemesanan" . PHP_EOL;
+        viewShowOrder();
       }else if($pilihan == "x")
       {
         break;

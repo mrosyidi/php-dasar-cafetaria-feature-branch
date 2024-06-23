@@ -28,7 +28,7 @@
       }else if($pilihan == "x")
       {
         viewMainMenu();
-        break;
+        exit;
       }else
       {
         echo "Pilihan tidak mengerti" . PHP_EOL;
